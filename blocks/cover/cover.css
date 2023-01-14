@@ -1,0 +1,33 @@
+.cover {
+  max-width: 1184px;
+  width: 100%;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 32px;
+  background-image: url(../../images/cover.jpg);
+  background-size: cover;
+  position: relative;
+  margin: 92px 0 0;
+}
+
+.cover::before {
+  content: '';
+  position: absolute;
+  background-color: #2A2C2F;
+  opacity: 30%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1183px) {
+  .cover {
+    max-width: none;
+    min-height: 62.5vw;
+	}
+}
+
