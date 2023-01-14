@@ -4,18 +4,22 @@
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  padding: 0 48px;
+  align-items: flex-end;
   background-color: #2A2C2F;
+  padding: 0 48px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 896px) {
 	.header {
-		padding: 0 24px;
+    padding-left: 24px;
+    padding-right: 24px;
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 544px) {
 	.header {
-		padding: 0 16px;
+    min-height: 42px;
+    padding-left: 16px;
+    padding-right: 16px;
 	}
 }

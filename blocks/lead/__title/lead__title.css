@@ -3,13 +3,21 @@
   line-height: 1.042;
   font-size: 96px;
   font-weight: 900;
-  color: #FFFFFF;
+  color: #fff;
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 740px) {
+  .lead__title {
+    max-width: 480px;
+    line-height: 1.1;
+    font-size: 52px;
+	}
+}
+
+@media screen and (max-width: 544px) {
   .lead__title {
     max-width: 288px;
     line-height: 1.1;
