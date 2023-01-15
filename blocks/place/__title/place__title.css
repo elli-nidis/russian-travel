@@ -4,7 +4,7 @@
   line-height: 1.056;
   font-size: 72px;
   font-weight: 900;
-  color: #ffffff;
+  color: #fff;
   margin: 0;
 }
 
@@ -14,7 +14,7 @@
 	}
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 948px) {
   .place__title {
     max-width: 340px;
     line-height: 1.095;
@@ -22,7 +22,14 @@
 	}
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 748px) {
+  .place__title {
+    max-width: 250px;
+    font-size: 38px;
+	}
+}
+
+@media screen and (max-width: 648px) {
   .place__title {
     max-width: 288px;
     line-height: 1.094;

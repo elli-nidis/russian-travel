@@ -5,13 +5,13 @@
   row-gap: 26px;
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 948px) {
   .place__paragraphs {
     row-gap: 25px;
 	}
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 648px) {
   .place__paragraphs {
     padding: 0 16px;
 }

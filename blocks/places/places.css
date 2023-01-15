@@ -11,7 +11,7 @@
 	}
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 948px) {
   .places {
     max-width: 720px;
     row-gap: 73px;
@@ -19,7 +19,15 @@
 	}
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 748px) {
+  .places {
+    max-width: 620px;
+    row-gap: 64px;
+    margin-top: 78px;
+	}
+}
+
+@media screen and (max-width: 648px) {
   .places {
     max-width: 320px;
     row-gap: 50px;
