@@ -1,7 +1,7 @@
 .place {
   width: 100%;
   display: grid;
-  gap: 48px 40px;
+  gap: 46px 40px;
   grid-template-areas: 
   "title website"
   "image paragraphs";

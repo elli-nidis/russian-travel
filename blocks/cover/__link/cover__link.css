@@ -1,4 +1,17 @@
 .cover__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 32px;
   color: #fff;
   text-decoration: none;
+  position: relative;
 }
+
+@media screen and (max-width: 544px) {
+  .cover__link {
+    row-gap: 16px;
+	}
+}
+

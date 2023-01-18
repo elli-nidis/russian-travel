@@ -8,14 +8,14 @@
 @media screen and (max-width: 1152px) {
   .places {
     max-width: 928px;
+    margin-top: 88px;
 	}
 }
 
 @media screen and (max-width: 948px) {
   .places {
-    max-width: 720px;
+    max-width: 726px;
     row-gap: 73px;
-    margin-top: 88px;
 	}
 }
 
@@ -31,6 +31,6 @@
   .places {
     max-width: 320px;
     row-gap: 50px;
-    margin-top: 64px;
+    margin-top: 62px;
 	}
 }

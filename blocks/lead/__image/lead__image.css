@@ -1,25 +1,16 @@
 .lead__image {
   width: 100%;
   height: calc(984px / 1.6);
-  background: url(../../../images/lead-map.svg) no-repeat center 14.5% / 95% 60%, url(../../../images/lead.jpg) 0 0/cover;
-  margin: 64px 0 0;
 }
 
 @media screen and (max-width: 1152px) {
   .lead__image {
-    height: calc(928 / 1.6);
-    margin-top: 56px;
+    height: calc(928px / 1.6);
 	}
 }
 
 @media screen and (max-width: 930px) {
   .lead__image {
     height: calc(100vw / 1.6);
-	}
-}
-
-@media screen and (max-width: 544px) {
-  .lead__image {
-    margin-top: 40px;
 	}
 }

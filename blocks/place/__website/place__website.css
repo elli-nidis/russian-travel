@@ -2,6 +2,7 @@
   grid-area: website;
   align-self: end;
   display: grid;
+  grid-template-columns: max-content;
   row-gap: 12px;
 }
 
